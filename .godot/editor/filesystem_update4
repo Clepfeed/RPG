@@ -1,1 +1,3 @@
 res://label.tscn
+res://Player.tscn
+res://Scripts/Player.gd
