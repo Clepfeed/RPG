@@ -24,7 +24,7 @@ size = Vector2(152, 150)
 [node name="Player" type="Area2D"]
 position = Vector2(833, 442)
 script = ExtResource("1_wnbqd")
-released_delay = 8
+released_delay = 2
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
