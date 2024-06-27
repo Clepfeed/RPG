@@ -1,3 +1,7 @@
+GridContainer
+Panel
+Sprite2D
+CenterContainer
 CollisionShape2D
 AnimatedSprite2D
 Area2D

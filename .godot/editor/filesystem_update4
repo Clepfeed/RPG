@@ -1,1 +1,4 @@
 res://Player.tscn
+res://inventory/inventory.tscn
+res://GridContainer.gd
+res://inventory/inventory_panel.tscn

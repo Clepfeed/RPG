@@ -1,0 +1,34 @@
+[gd_scene load_steps=3 format=3 uid="uid://jcbgsy88y0q5"]
+
+[ext_resource type="Texture2D" uid="uid://0seoo62kv54y" path="res://inventory/oneSlot.png" id="1_jhkhn"]
+[ext_resource type="Texture2D" uid="uid://d0tnxygxmboym" path="res://Sprites/cat.png" id="2_b2isq"]
+
+[node name="inventory_slot" type="Panel"]
+offset_right = 64.0
+offset_bottom = 64.0
+
+[node name="background_slot" type="Sprite2D" parent="."]
+scale = Vector2(2.66667, 2.66667)
+texture = ExtResource("1_jhkhn")
+centered = false
+
+[node name="CenterContainer" type="CenterContainer" parent="background_slot"]
+anchors_preset = -1
+anchor_right = 1.067
+anchor_bottom = 1.067
+offset_right = -1.608
+offset_bottom = -1.608
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+metadata/_edit_use_anchors_ = true
+
+[node name="Panel" type="Panel" parent="background_slot/CenterContainer"]
+layout_mode = 2
+
+[node name="item" type="Sprite2D" parent="background_slot/CenterContainer/Panel"]
+position = Vector2(-6.4, -6.4)
+scale = Vector2(0.0416667, 0.0403536)
+texture = ExtResource("2_b2isq")
+centered = false
