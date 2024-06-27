@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://dlymxi3ggx5pa"]
+
+[ext_resource type="Texture2D" uid="uid://d04yseuvl0t60" path="res://Sprites/teleport.png" id="1_vowy3"]
+
+[node name="BarDisplay" type="Node2D"]
+position = Vector2(0.999969, 0)
+scale = Vector2(1, 0.2)
+metadata/_edit_group_ = true
+
+[node name="Bar" type="TextureProgressBar" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+value = 100.0
+texture_progress = ExtResource("1_vowy3")
+metadata/_edit_use_anchors_ = true
+metadata/_edit_group_ = true

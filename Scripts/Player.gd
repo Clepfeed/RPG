@@ -1,6 +1,8 @@
 extends Area2D
 
 @export var speed = 500; #скорость
+@export var hp = 100
+@export var mana = 100
 var screen_size;
 
 @export var released_delay = 4;

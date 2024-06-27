@@ -14,5 +14,6 @@ func _process(delta):
 
 func _on_area_entered(area):
 	var newScene = "res://" + where_to_go + ".tscn"
+	
 	get_tree().change_scene_to_file(newScene)
 	pass # Replace with function body.
