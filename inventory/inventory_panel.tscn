@@ -1,20 +1,37 @@
-[gd_scene load_steps=3 format=3 uid="uid://c3h5dvh2lrkwv"]
+[gd_scene load_steps=2 format=3 uid="uid://c3h5dvh2lrkwv"]
 
-[ext_resource type="Script" path="res://GridContainer.gd" id="1_ka7ld"]
 [ext_resource type="PackedScene" uid="uid://jcbgsy88y0q5" path="res://inventory/inventory.tscn" id="2_1infk"]
 
 [node name="inventory_panel" type="Panel"]
-offset_right = 320.0
+offset_right = 384.0
 offset_bottom = 64.0
 
 [node name="GridContainer" type="GridContainer" parent="."]
-layout_direction = 2
-layout_mode = 1
-anchors_preset = -1
-anchor_bottom = 1.0
-offset_right = 320.0
+layout_mode = 0
+offset_right = 384.0
+offset_bottom = 64.0
 columns = 6
-script = ExtResource("1_ka7ld")
 
 [node name="inventory_slot" parent="GridContainer" instance=ExtResource("2_1infk")]
+custom_minimum_size = Vector2(60, 0)
+layout_mode = 2
+
+[node name="inventory_slot2" parent="GridContainer" instance=ExtResource("2_1infk")]
+custom_minimum_size = Vector2(60, 0)
+layout_mode = 2
+
+[node name="inventory_slot3" parent="GridContainer" instance=ExtResource("2_1infk")]
+custom_minimum_size = Vector2(60, 0)
+layout_mode = 2
+
+[node name="inventory_slot4" parent="GridContainer" instance=ExtResource("2_1infk")]
+custom_minimum_size = Vector2(60, 0)
+layout_mode = 2
+
+[node name="inventory_slot5" parent="GridContainer" instance=ExtResource("2_1infk")]
+custom_minimum_size = Vector2(60, 0)
+layout_mode = 2
+
+[node name="inventory_slot6" parent="GridContainer" instance=ExtResource("2_1infk")]
+custom_minimum_size = Vector2(60, 0)
 layout_mode = 2
