@@ -1,10 +1,7 @@
 res://Player.tscn
-res://teleport.tscn
 res://Teleport.tscn
-res://First_location.tscn
-res://Scripts/Teleport.gd
 res://Location_1.tscn
 res://Location_2.tscn
-res://Scripts/Player.gd
-res://Enemy.tscn
 res://Bar_display.tscn
+res://Scripts/Player.gd
+res://Scripts/Teleport.gd

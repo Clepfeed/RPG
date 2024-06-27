@@ -1,7 +1,8 @@
 extends Area2D
 
 @export var speed = 500; #скорость
-@export var hp = 100
+@export var max_hp = 100
+@export var hp = max_hp
 @export var mana = 100
 var screen_size;
 
@@ -14,6 +15,11 @@ var down_but_released_delay = 0;
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	var file = FileAccess.open("Saves/hp.txt", FileAccess.READ)
+	var read_hp = file.get_as_text()
+	hp = float(read_hp)
+	
+	$BarDisplay/Bar.max_value = max_hp;
 	screen_size = get_viewport_rect().size
 	pass # Replace with function body.
 
@@ -59,4 +65,6 @@ func _process(delta):
 		$AnimatedSprite2D.stop()
 	
 	position += velocity * delta
+	
+	$BarDisplay/Bar.value = hp;
 	pass
