@@ -57,5 +57,4 @@ func _process(delta):
 		$AnimatedSprite2D.stop()
 	
 	position += velocity * delta
-	position = position.clamp(Vector2.ZERO, screen_size)
 	pass

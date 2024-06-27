@@ -22,7 +22,7 @@ animations = [{
 size = Vector2(152, 150)
 
 [node name="Player" type="Area2D"]
-position = Vector2(833, 442)
+position = Vector2(569, 285)
 script = ExtResource("1_wnbqd")
 released_delay = 2
 metadata/_edit_group_ = true
@@ -37,3 +37,7 @@ frame_progress = 0.893213
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(72, 71)
 shape = SubResource("RectangleShape2D_sjh3q")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(74, 74)
+position_smoothing_enabled = true
