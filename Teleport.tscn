@@ -23,6 +23,7 @@ script = ExtResource("1_bx5vu")
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+visible = false
 position = Vector2(-13.75, -43.5)
 scale = Vector2(0.895437, 0.597222)
 sprite_frames = SubResource("SpriteFrames_owd0p")

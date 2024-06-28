@@ -5,3 +5,8 @@ res://Location_1.tscn
 res://Bar_display.tscn
 res://Enemy.tscn
 res://Fight_scene.tscn
+res://scenes.tscn
+res://Menu.gd
+res://Enemy.gd
+res://Scenes.gd
+res://Fight_scene.gd

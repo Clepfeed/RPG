@@ -14,7 +14,7 @@ func _process(delta):
 func _on_new_game_pressed():
 	var file = FileAccess.open("res://Saves/save.txt", FileAccess.WRITE)
 	file.store_string("NewGame")
-	get_tree().change_scene_to_file("res://Location_1.tscn")
+	get_tree().change_scene_to_file("res://scenes.tscn")
 	pass # Replace with function body.
 
 
@@ -24,5 +24,5 @@ func _on_exit_pressed():
 
 
 func _on_load_game_pressed():
-	get_tree().change_scene_to_file("res://Location_1.tscn")
+	get_tree().change_scene_to_file("res://scenes.tscn")
 	pass # Replace with function body.
