@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://egtp1ac83pb0"]
-
-[ext_resource type="PackedScene" uid="uid://ch8gthxkmu6vn" path="res://Teleport.tscn" id="2_m2hh0"]
-
-[node name="Location_2" type="Node"]
-
-[node name="Teleport" parent="." instance=ExtResource("2_m2hh0")]
-position = Vector2(1174, 121)

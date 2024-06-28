@@ -4,25 +4,51 @@
 
 [node name="FightScene" type="Node"]
 
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_top = 100
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_direction = 2
+layout_mode = 2
+theme_override_constants/separation = 200
+alignment = 1
+
+[node name="YoursSpells" type="Label" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_font_sizes/font_size = 25
+text = "1 - удар рукой 20 урона (0 маны)
+2 - удар ного 40 урона (20 маны)
+3 - положить тетрадь в куртку щит 25 хп (50 маны) "
+
+[node name="EnemySpells" type="Label" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_font_sizes/font_size = 25
+text = "1) удар рукой 15 урона (0 маны)
+2) блок щит 20 хп (20 маны)"
+
 [node name="PlayerHpBar" parent="." instance=ExtResource("1_d7u4s")]
-position = Vector2(0, 0)
+position = Vector2(10, 46)
+
+[node name="YoursHP" type="Label" parent="."]
+offset_left = 10.0
+offset_right = 353.0
+offset_bottom = 42.0
+theme_override_font_sizes/font_size = 30
+text = "Ваше здоровье:"
 
 [node name="EnemyHP" type="Label" parent="."]
-offset_left = 414.0
-offset_top = 97.0
-offset_right = 454.0
-offset_bottom = 120.0
+offset_left = 864.0
+offset_right = 1207.0
+offset_bottom = 42.0
 theme_override_font_sizes/font_size = 30
 text = "Здоровье противника:"
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
-offset_right = 241.0
-offset_bottom = 42.0
-
-[node name="EnemyHpBar" parent="VBoxContainer" instance=ExtResource("1_d7u4s")]
-position = Vector2(1018, 0)
-
-[node name="YoursHP" type="Label" parent="VBoxContainer"]
-layout_mode = 2
-theme_override_font_sizes/font_size = 30
-text = "Ваше здоровье:"
+[node name="EnemyHpBar" parent="." instance=ExtResource("1_d7u4s")]
+position = Vector2(864, 46)

@@ -12,5 +12,4 @@ offset_right = 40.0
 offset_bottom = 40.0
 value = 100.0
 texture_progress = ExtResource("1_vowy3")
-metadata/_edit_use_anchors_ = true
 metadata/_edit_group_ = true
