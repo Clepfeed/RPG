@@ -1,9 +1,10 @@
-[gd_scene load_steps=7 format=3 uid="uid://x46kj0bfka0h"]
+[gd_scene load_steps=8 format=3 uid="uid://x46kj0bfka0h"]
 
 [ext_resource type="Script" path="res://Scripts/Player.gd" id="1_wnbqd"]
 [ext_resource type="Texture2D" uid="uid://d0tnxygxmboym" path="res://Sprites/cat.png" id="2_4lebc"]
 [ext_resource type="Texture2D" uid="uid://yijlojwb4vg6" path="res://Sprites/catInverted.png" id="3_3j7f8"]
 [ext_resource type="PackedScene" uid="uid://dlymxi3ggx5pa" path="res://Bar_display.tscn" id="4_gqtg3"]
+[ext_resource type="PackedScene" uid="uid://c3h5dvh2lrkwv" path="res://inventory/inventory_panel.tscn" id="5_813vr"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_4mqk0"]
 animations = [{
@@ -23,7 +24,7 @@ animations = [{
 size = Vector2(152, 150)
 
 [node name="Player" type="Area2D"]
-position = Vector2(577, 281)
+position = Vector2(570, 289)
 script = ExtResource("1_wnbqd")
 released_delay = 2
 metadata/_edit_group_ = true
@@ -45,3 +46,9 @@ position = Vector2(-61, -49)
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(74, 74)
 position_smoothing_enabled = true
+
+[node name="inventory_panel" parent="." instance=ExtResource("5_813vr")]
+offset_left = -111.0
+offset_top = 147.0
+offset_right = 273.0
+offset_bottom = 211.0

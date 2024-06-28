@@ -1,20 +1,29 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1719604654
-Bar_display.tscn::PackedScene::7981654538090998734::1719602630::0::1::::<><>::uid://d04yseuvl0t60::::res://Sprites/teleport.png
-Enemy.gd::GDScript::-1::1719599564::0::1::::<>Area2D<>::
-Enemy.tscn::PackedScene::7589531340803687889::1719602630::0::1::::<><>::res://Enemy.gd<>uid://c38ny21stylsw::::res://Sprites/Enemy.png
-Fight_scene.tscn::PackedScene::164425535684716647::1719602630::0::1::::<><>::uid://dlymxi3ggx5pa::::res://Bar_display.tscn
+::res://::1719612021
+Bar_display.tscn::PackedScene::7981654538090998734::1719611824::0::1::::<><>::uid://d04yseuvl0t60::::res://Sprites/teleport.png
+Enemy.gd::GDScript::-1::1719609711::0::1::::<>Area2D<>::
+Enemy.tscn::PackedScene::7589531340803687889::1719611824::0::1::::<><>::res://Enemy.gd<>uid://c38ny21stylsw::::res://Sprites/Enemy.png
+Fight_scene.tscn::PackedScene::164425535684716647::1719611824::0::1::::<><>::res://Fight_scene.gd<>uid://dlymxi3ggx5pa::::res://Bar_display.tscn
+GridContainer.gd::GDScript::-1::1719511049::0::1::::<>RefCounted<>::
 icon.svg::CompressedTexture2D::8763781559071548738::1719420966::1719421073::1::::<><>::
-Location_1.tscn::PackedScene::3565905091998118456::1719602630::0::1::::<><>::uid://ch8gthxkmu6vn::::res://Teleport.tscn<>uid://x46kj0bfka0h::::res://Player.tscn<>uid://dgeoqca2d7qpd::::res://Enemy.tscn
-Menu.gd::GDScript::-1::1719599564::0::1::::<>CanvasLayer<>::
-Menu.tscn::PackedScene::5492688249963753185::1719602630::0::1::::<><>::res://Menu.gd
+Location_1.tscn::PackedScene::3565905091998118456::1719611824::0::1::::<><>::uid://ch8gthxkmu6vn::::res://Teleport.tscn<>uid://x46kj0bfka0h::::res://Player.tscn<>uid://dgeoqca2d7qpd::::res://Enemy.tscn
+Menu.gd::GDScript::-1::1719605900::0::1::::<>CanvasLayer<>::
+Menu.tscn::PackedScene::5492688249963753185::1719611824::0::1::::<><>::res://Menu.gd
 Player.gd::GDScript::-1::1719492161::0::1::::<>Area2D<>::
-Player.tscn::PackedScene::1676110954640060377::1719602630::0::1::::<><>::res://Scripts/Player.gd<>uid://d0tnxygxmboym::::res://Sprites/cat.png<>uid://yijlojwb4vg6::::res://Sprites/catInverted.png<>uid://dlymxi3ggx5pa::::res://Bar_display.tscn
-scenes.tscn::PackedScene::-1::1719600469::0::1::::<><>::
-Teleport.tscn::PackedScene::5332686374442358707::1719602630::0::1::::<><>::res://Scripts/Teleport.gd<>uid://d04yseuvl0t60::::res://Sprites/teleport.png
+Player.tscn::PackedScene::1676110954640060377::1719611824::0::1::::<><>::res://Scripts/Player.gd<>uid://d0tnxygxmboym::::res://Sprites/cat.png<>uid://yijlojwb4vg6::::res://Sprites/catInverted.png<>uid://dlymxi3ggx5pa::::res://Bar_display.tscn
+Fight_scene.gd::GDScript::-1::1719611823::0::1::::<>Node<>::
+Scenes.gd::GDScript::-1::1719611534::0::1::::<>Node2D<>::
+scenes.tscn::PackedScene::496857361363287639::1719611827::0::1::::<><>::uid://xddsvo6t6x1r::::res://scenes/Top-Down_Retro_Interior/TopDownHouse_FloorsAndWalls.png<>res://Scenes.gd<>uid://bv2l5dmkxbeo5::::res://scenes/картинки/TX Tileset Grass.png<>uid://x46kj0bfka0h::::res://Player.tscn<>uid://dks0smbj82r22::::res://scenes/PNG/Wall/s2 Wallpaper 01 Red.png<>uid://r5mrk4ccqueg::::res://scenes/PNG/interior free/interior free.png<>uid://f6ye6mmw6gqn::::res://scenes/photo_2024-06-27_03-35-16.jpg<>uid://cpk2uh2d6rkw6::::res://scenes/PNG/Wood/s2 Wood Painted Worn 01 Brown 1.png<>uid://dadp4nl6rr7gu::::res://scenes/photo_2024-06-28_00-45-18.jpg<>uid://c4r22g5tua78x::::res://scenes/PNG/Wood/s2 Wood Painted 01 Brown 2.png<>uid://dycbc12n2a2b2::::res://scenes/TopDownHouse_FurnitureState1.png<>uid://df06ghtdcqrtv::::res://scenes/PNG/Wall/s2 Painted Wall Yellow 01 Stucco.png<>uid://cskvu8ublecaw::::res://scenes/PNG/Bricks/s2 Brick Herringbone Grey.png<>uid://7qe7muuqnckg::::res://scenes/PNG/Wall/s2 Painted Wall Blue 01.png<>uid://mciif3wnd6g1::::res://scenes/картинки/14-TileSets/Terrain (32x32).png<>uid://d0rkdbksj8jkb::::res://scenes/PNG/Wood/s2 Wood Planks 3 Brown 1.png<>uid://bnckhldj8eul4::::res://scenes/PNG/Grass/s2 Grass 02 Green 3.png<>uid://c38u5fbdsbti8::::res://scenes/PNG/Wood/s2 Wood Branches 01.png<>uid://ch8gthxkmu6vn::::res://Teleport.tscn<>uid://dgeoqca2d7qpd::::res://Enemy.tscn
+Teleport.tscn::PackedScene::5332686374442358707::1719611824::0::1::::<><>::res://Scripts/Teleport.gd<>uid://d04yseuvl0t60::::res://Sprites/teleport.png
+::res://inventory/::1719611982
+Inventory20.png::CompressedTexture2D::6568184173064855308::1719511049::1719612027::1::::<><>::
+inventory.tscn::PackedScene::635900764046656274::1719511049::0::1::::<><>::uid://0seoo62kv54y::::res://inventory/oneSlot.png<>uid://d0tnxygxmboym::::res://Sprites/cat.png
+InventorySlots.png::CompressedTexture2D::7759137380484989423::1719511049::1719612027::1::::<><>::
+inventory_panel.tscn::PackedScene::6754407615740356481::1719511049::0::1::::<><>::uid://jcbgsy88y0q5::::res://inventory/inventory.tscn
+oneSlot.png::CompressedTexture2D::1792148544066439762::1719511049::1719612027::1::::<><>::
 ::res://Saves/::1719599564
 save.txt::TextFile::-1::1719599564::0::1::::<><>::
-::res://scenes/::1719602813
+::res://scenes/::1719604666
 photo_2024-06-27_03-35-16.jpg::CompressedTexture2D::416405926905387549::1719521016::1719604666::1::::<><>::
 photo_2024-06-28_00-45-18.jpg::CompressedTexture2D::7166418428484543128::1719524756::1719604666::1::::<><>::
 TopDownHouse_FurnitureState1.png::CompressedTexture2D::8847988750424372025::1719563934::1719604666::1::::<><>::
@@ -28,7 +37,7 @@ TX Tileset Grass.png::CompressedTexture2D::8470854383836594741::1719568354::1719
 TX Tileset Stone Ground.png::CompressedTexture2D::1480969525140384867::1719568354::1719604666::1::::<><>::
 TX Tileset Wall.png::CompressedTexture2D::2899607327685020554::1719568354::1719604666::1::::<><>::
 ::res://scenes/PNG/::1719602812
-::res://scenes/PNG/Bricks/::1719602811
+::res://scenes/PNG/Bricks/::1719604667
 s2 Brick 01 Grey2.png::CompressedTexture2D::9185584179139501651::1719506137::1719604667::1::::<><>::
 s2 Brick 01 Grey.png::CompressedTexture2D::3735244303691248615::1719506137::1719604667::1::::<><>::
 s2 Brick 01 Orange2.png::CompressedTexture2D::169167156330094784::1719506137::1719604667::1::::<><>::
@@ -63,7 +72,7 @@ s2 Brick Squares 02 Grey.png::CompressedTexture2D::3614340626993340916::17195061
 s2 Brick Squares 02 Red.png::CompressedTexture2D::1123308626384785595::1719506137::1719604667::1::::<><>::
 s2 Brick Staggered Steps 1.png::CompressedTexture2D::1720937238271274614::1719506137::1719604667::1::::<><>::
 s2 Brick Staggered Steps 2.png::CompressedTexture2D::3477832461552286248::1719506137::1719604667::1::::<><>::
-::res://scenes/PNG/Cement/::1719602811
+::res://scenes/PNG/Cement/::1719604667
 s2 Cement Black.png::CompressedTexture2D::3015547684782548678::1719506137::1719604667::1::::<><>::
 s2 Cement Blue.png::CompressedTexture2D::1776203021181508700::1719506137::1719604667::1::::<><>::
 s2 Cement Green.png::CompressedTexture2D::6042570865302005343::1719506137::1719604667::1::::<><>::
@@ -72,13 +81,13 @@ s2 Cement Orange.png::CompressedTexture2D::7885182705996141595::1719506137::1719
 s2 Cement SkullGrid.png::CompressedTexture2D::1876105923372352471::1719506137::1719604667::1::::<><>::
 s2 Cement Skulls.png::CompressedTexture2D::8659111283051121073::1719506137::1719604667::1::::<><>::
 s2 Cement WaterRed.png::CompressedTexture2D::634260009898585926::1719506137::1719604667::1::::<><>::
-::res://scenes/PNG/Coins/::1719602811
+::res://scenes/PNG/Coins/::1719604667
 s2 Coins Copper.png::CompressedTexture2D::13865137372548049::1719506137::1719604667::1::::<><>::
 s2 Coins Gold.png::CompressedTexture2D::4266889019941103064::1719506137::1719604667::1::::<><>::
 s2 Coins Mixed.png::CompressedTexture2D::8532550988385031879::1719506137::1719604667::1::::<><>::
 s2 Coins Silver Gold.png::CompressedTexture2D::724945098247828370::1719506137::1719604667::1::::<><>::
 s2 Coins Silver.png::CompressedTexture2D::7459796389566674123::1719506137::1719604667::1::::<><>::
-::res://scenes/PNG/Concrete/::1719602811
+::res://scenes/PNG/Concrete/::1719604667
 s2 Concrete Base Green.png::CompressedTexture2D::8382406480852739952::1719506137::1719604667::1::::<><>::
 s2 Concrete Base Grey.png::CompressedTexture2D::3991184162080743852::1719506137::1719604667::1::::<><>::
 s2 Concrete Base Orange.png::CompressedTexture2D::6978059099999788967::1719506137::1719604667::1::::<><>::
@@ -111,7 +120,7 @@ s2 Concrete Squares 3 Orange.png::CompressedTexture2D::528360723792505182::17195
 s2 Concrete Squares Green.png::CompressedTexture2D::2091777055410299704::1719506137::1719604667::1::::<><>::
 s2 Concrete Squares Grey.png::CompressedTexture2D::8718709018966372275::1719506137::1719604667::1::::<><>::
 s2 Concrete Squares Orange.png::CompressedTexture2D::3304040647096261424::1719506137::1719604667::1::::<><>::
-::res://scenes/PNG/Debris/::1719602811
+::res://scenes/PNG/Debris/::1719604668
 s2 Debris 1 Cans Shadow.png::CompressedTexture2D::9068325267893734165::1719506137::1719604667::1::::<><>::
 s2 Debris 1 Cans.png::CompressedTexture2D::1300822954053268550::1719506137::1719604667::1::::<><>::
 s2 Debris Bags Black.png::CompressedTexture2D::6898323753378150586::1719506137::1719604667::1::::<><>::
@@ -126,7 +135,7 @@ s2 Debris Skulls 3.png::CompressedTexture2D::5790893811237023383::1719506137::17
 s2 Debris Skulls.png::CompressedTexture2D::3335435679760800111::1719506137::1719604667::1::::<><>::
 s2 Debris Straw 1.png::CompressedTexture2D::3617163718644355162::1719506137::1719604668::1::::<><>::
 s2 Debris Tech.png::CompressedTexture2D::6596960944136078059::1719506137::1719604668::1::::<><>::
-::res://scenes/PNG/Dirt/::1719602811
+::res://scenes/PNG/Dirt/::1719604668
 s2 Dirt Cracked 1.png::CompressedTexture2D::7071039804866966419::1719506137::1719604668::1::::<><>::
 s2 Dirt Cracked 2.png::CompressedTexture2D::7974449705526150925::1719506137::1719604668::1::::<><>::
 S2 Dirt Pebble 02 Black.png::CompressedTexture2D::743300162408810816::1719506137::1719604668::1::::<><>::
@@ -170,12 +179,12 @@ s2 DirtCracked Small 4 Black.png::CompressedTexture2D::6173513389735456962::1719
 s2 DirtCracked Small 4 White.png::CompressedTexture2D::2171033925001214929::1719506137::1719604668::1::::<><>::
 s2 DirtCracked Small 5 Sand 1.png::CompressedTexture2D::8659170707179440803::1719506137::1719604668::1::::<><>::
 s2 DirtCracked Small 6 Sand 2.png::CompressedTexture2D::5824233516380178951::1719506137::1719604668::1::::<><>::
-::res://scenes/PNG/Fabric/::1719602811
+::res://scenes/PNG/Fabric/::1719604668
 s2 Leather 1 Blue.png::CompressedTexture2D::877120212585137640::1719506137::1719604668::1::::<><>::
 s2 Leather 1 Green.png::CompressedTexture2D::5038735634869459802::1719506137::1719604667::1::::<><>::
 s2 Leather 1 Purple.png::CompressedTexture2D::7726244454562681265::1719506137::1719604667::1::::<><>::
 s2 Leather 1 Red.png::CompressedTexture2D::7246073410739146220::1719506137::1719604667::1::::<><>::
-::res://scenes/PNG/Foliage/::1719602811
+::res://scenes/PNG/Foliage/::1719604667
 s2 Leaves Fallen Black.png::CompressedTexture2D::4626013763157037519::1719506137::1719604667::1::::<><>::
 s2 Leaves Fallen Green.png::CompressedTexture2D::2590277607584077643::1719506137::1719604667::1::::<><>::
 s2 Leaves Fallen Orange 2.png::CompressedTexture2D::8811796045641510738::1719506137::1719604667::1::::<><>::
@@ -184,12 +193,12 @@ s2 Leaves Fallen Red.png::CompressedTexture2D::1098969783899674624::1719506137::
 s2 Leaves Fallen White.png::CompressedTexture2D::948959849002109991::1719506137::1719604667::1::::<><>::
 s2 Roots.png::CompressedTexture2D::1430588192435836224::1719506137::1719604667::1::::<><>::
 s2 Wood Branches 01.png::CompressedTexture2D::1769401850473531729::1719506137::1719604667::1::::<><>::
-::res://scenes/PNG/Glass/::1719602811
+::res://scenes/PNG/Glass/::1719604667
 s2 Glass 01 Transparent.png::CompressedTexture2D::2508255607492232722::1719506137::1719604667::1::::<><>::
 s2 Glass 01.png::CompressedTexture2D::6561432950628577044::1719506137::1719604667::1::::<><>::
 s2 Glass 02.png::CompressedTexture2D::4845562840807397612::1719506137::1719604667::1::::<><>::
 s2 Glass 03.png::CompressedTexture2D::1428445147689839980::1719506137::1719604667::1::::<><>::
-::res://scenes/PNG/Grass/::1719602812
+::res://scenes/PNG/Grass/::1719604668
 s2 Grass 01 Green 3.png::CompressedTexture2D::6722588319494818668::1719506137::1719604668::1::::<><>::
 s2 Grass 01 Green.png::CompressedTexture2D::4975606525282165977::1719506137::1719604668::1::::<><>::
 s2 Grass 01 Orange.png::CompressedTexture2D::7764529735915227864::1719506137::1719604668::1::::<><>::
@@ -202,7 +211,7 @@ s2 Grass 02 Green 2.png::CompressedTexture2D::9211500765474684960::1719506137::1
 s2 Grass 02 Green 3.png::CompressedTexture2D::3303624659825103987::1719506137::1719604668::1::::<><>::
 s2 Grass 02 White 1.png::CompressedTexture2D::5511279955433139273::1719506137::1719604668::1::::<><>::
 ::res://scenes/PNG/Grass/Pixel Art Top Down - Basic/::1719602812
-::res://scenes/PNG/Grass/Pixel Art Top Down - Basic/Texture/::1719602812
+::res://scenes/PNG/Grass/Pixel Art Top Down - Basic/Texture/::1719604668
 TX Plant.png::CompressedTexture2D::5380759653510880607::1719568230::1719604667::1::::<><>::
 TX Player.png::CompressedTexture2D::1787527429848903509::1719568230::1719604667::1::::<><>::
 TX Props.png::CompressedTexture2D::4857566053963661317::1719568230::1719604667::1::::<><>::
@@ -212,7 +221,7 @@ TX Struct.png::CompressedTexture2D::927070999705045441::1719568230::1719604667::
 TX Tileset Grass.png::CompressedTexture2D::4218259631059928::1719568230::1719604667::1::::<><>::
 TX Tileset Stone Ground.png::CompressedTexture2D::7750943301116398843::1719568230::1719604668::1::::<><>::
 TX Tileset Wall.png::CompressedTexture2D::4058706640426187097::1719568230::1719604668::1::::<><>::
-::res://scenes/PNG/Gravel and Pebbles/::1719602812
+::res://scenes/PNG/Gravel and Pebbles/::1719604668
 s2 Gravel 2.png::CompressedTexture2D::6097518680807858148::1719506137::1719604668::1::::<><>::
 s2 Gravel Blue.png::CompressedTexture2D::2728250660690064619::1719506137::1719604668::1::::<><>::
 s2 Gravel Brown.png::CompressedTexture2D::9018527900754580104::1719506137::1719604668::1::::<><>::
@@ -224,10 +233,10 @@ s2 Pebbles Green.png::CompressedTexture2D::5809797073499961094::1719506137::1719
 s2 Pebbles GreyMix.png::CompressedTexture2D::5255728204930727882::1719506137::1719604667::1::::<><>::
 s2 Pebbles Red.png::CompressedTexture2D::1513560157146460144::1719506137::1719604667::1::::<><>::
 s2 Pebbles.png::CompressedTexture2D::1489468169131011823::1719506137::1719604666::1::::<><>::
-::res://scenes/PNG/interior free/::1719602812
+::res://scenes/PNG/interior free/::1719604666
 interior free.png::CompressedTexture2D::1255901207004949758::1719519045::1719604666::1::::<><>::
 read me.txt::TextFile::-1::1719519045::0::1::::<><>::
-::res://scenes/PNG/Metal/::1719602812
+::res://scenes/PNG/Metal/::1719604666
 s2 Metal 01 Airduct.png::CompressedTexture2D::751720791410660147::1719506137::1719604666::1::::<><>::
 s2 Metal 01 Blue 01.png::CompressedTexture2D::993723247348781208::1719506137::1719604666::1::::<><>::
 s2 Metal 01 Corrugated Hor 01.png::CompressedTexture2D::6565007772369696801::1719506137::1719604666::1::::<><>::
@@ -253,11 +262,11 @@ s2 Metal Grid 2.png::CompressedTexture2D::4491285053677313757::1719506137::17196
 s2 Metal Grid 3 box.png::CompressedTexture2D::7455721381851474517::1719506137::1719604666::1::::<><>::
 s2 Metal Grid 3 panels.png::CompressedTexture2D::3667134702922127322::1719506137::1719604666::1::::<><>::
 s2 Metal Grid 3.png::CompressedTexture2D::5061392187570239608::1719506137::1719604666::1::::<><>::
-::res://scenes/PNG/Roofing/::1719602812
+::res://scenes/PNG/Roofing/::1719604666
 s2 Roof Tile Blue.png::CompressedTexture2D::1674358952558259190::1719506137::1719604666::1::::<><>::
 s2 Roof Tile Grey.png::CompressedTexture2D::3879922212313990064::1719506137::1719604666::1::::<><>::
 s2 Roof Tile Red.png::CompressedTexture2D::512707561382839656::1719506137::1719604666::1::::<><>::
-::res://scenes/PNG/Sand/::1719602812
+::res://scenes/PNG/Sand/::1719604666
 s2 beach 1.png::CompressedTexture2D::8102218613630982186::1719506137::1719604666::1::::<><>::
 s2 beach 2.png::CompressedTexture2D::3507274299197429821::1719506137::1719604666::1::::<><>::
 s2 Sand Dia Rock 1.png::CompressedTexture2D::2790850115874682608::1719506137::1719604666::1::::<><>::
@@ -267,20 +276,20 @@ s2 Sand Hor Rock 1.png::CompressedTexture2D::5935927026963325698::1719506137::17
 s2 Sand Hor Rock 2.png::CompressedTexture2D::4261910611288992122::1719506137::1719604666::1::::<><>::
 s2 Sand Horizontal.png::CompressedTexture2D::3194259505826848662::1719506137::1719604666::1::::<><>::
 s2 Sand Rock 3.png::CompressedTexture2D::7899209553830832515::1719506137::1719604666::1::::<><>::
-::res://scenes/PNG/Snow/::1719602812
+::res://scenes/PNG/Snow/::1719604666
 s2 Snow 1.png::CompressedTexture2D::8658211092699452437::1719506137::1719604666::1::::<><>::
 s2 Snow 2 1.png::CompressedTexture2D::8385926496070514165::1719506137::1719604666::1::::<><>::
 s2 Snow Rocks 1.png::CompressedTexture2D::2764287692687629829::1719506137::1719604666::1::::<><>::
 s2 Snow Rocks 2.png::CompressedTexture2D::7163489801373146295::1719506137::1719604666::1::::<><>::
 s2 Snow Rocks 3.png::CompressedTexture2D::6458969900117261687::1719506137::1719604666::1::::<><>::
-::res://scenes/PNG/Stones/::1719602812
+::res://scenes/PNG/Stones/::1719604666
 s2 Stones Loose 01 Blue No Shadow.png::CompressedTexture2D::3610501894671989178::1719506137::1719604666::1::::<><>::
 s2 Stones Loose 01 Blue.png::CompressedTexture2D::7900785966982061254::1719506137::1719604666::1::::<><>::
 s2 Stones Loose 01 Grey No Shadow.png::CompressedTexture2D::4678089697997733556::1719506137::1719604666::1::::<><>::
 s2 Stones Loose 01 Grey.png::CompressedTexture2D::5502475570582534963::1719506137::1719604666::1::::<><>::
 s2 Stones Loose 01 Orange No Shadow.png::CompressedTexture2D::2274423170717804292::1719506137::1719604666::1::::<><>::
 s2 Stones Loose 01 Orange.png::CompressedTexture2D::5693527073067730099::1719506137::1719604666::1::::<><>::
-::res://scenes/PNG/Tiles/::1719602812
+::res://scenes/PNG/Tiles/::1719604666
 s2 Tiles Circle 1.png::CompressedTexture2D::880057591976503211::1719506137::1719604666::1::::<><>::
 s2 Tiles Inset.png::CompressedTexture2D::2583003187643241500::1719506137::1719604666::1::::<><>::
 s2 Tiles Pattern 1 Grey.png::CompressedTexture2D::6562699608976062924::1719506137::1719604666::1::::<><>::
@@ -306,7 +315,7 @@ s2 Tiles Small White.png::CompressedTexture2D::484459463907173126::1719506137::1
 s2 Tiles Small WhiteBlack Rows.png::CompressedTexture2D::7153100690587345811::1719506137::1719604666::1::::<><>::
 s2 Tiles Small WhiteBlack.png::CompressedTexture2D::2703582407626689759::1719506137::1719604666::1::::<><>::
 s2 Tiles Spiral 01.png::CompressedTexture2D::9149805597682769275::1719506137::1719604666::1::::<><>::
-::res://scenes/PNG/Wall/::1719602812
+::res://scenes/PNG/Wall/::1719604666
 s2 Painted Wall Blue 01 Stucco.png::CompressedTexture2D::6419471118270761423::1719506137::1719604666::1::::<><>::
 s2 Painted Wall Blue 01.png::CompressedTexture2D::2279373715964908746::1719506137::1719604666::1::::<><>::
 s2 Painted Wall Blue 02.png::CompressedTexture2D::1414675392637794626::1719506137::1719604666::1::::<><>::
@@ -323,7 +332,7 @@ s2 Wallpaper 01 Red Seam.png::CompressedTexture2D::3019112952602667320::17195061
 s2 Wallpaper 01 Red.png::CompressedTexture2D::7899859988421258557::1719506137::1719604666::1::::<><>::
 s2 Wallpaper 01 White.png::CompressedTexture2D::6635767399892836701::1719506137::1719604666::1::::<><>::
 s2 Wallpaper 02 Green.png::CompressedTexture2D::610025483991776166::1719506137::1719604666::1::::<><>::
-::res://scenes/PNG/Water/::1719602812
+::res://scenes/PNG/Water/::1719604666
 s2 Water Blue Dark Pebbles.png::CompressedTexture2D::1474395814686318995::1719506137::1719604666::1::::<><>::
 s2 Water Blue Dark Skulls.png::CompressedTexture2D::2879014547231394826::1719506137::1719604666::1::::<><>::
 s2 Water Blue Dark Trash.png::CompressedTexture2D::6401882206214568762::1719506137::1719604666::1::::<><>::
@@ -337,7 +346,7 @@ s2 Water Purple Dark.png::CompressedTexture2D::2226546024454926246::1719506137::
 s2 Water Purple.png::CompressedTexture2D::5037792272853574769::1719506137::1719604666::1::::<><>::
 s2 Water Red Dark.png::CompressedTexture2D::2570076312692172743::1719506137::1719604666::1::::<><>::
 s2 Water Red.png::CompressedTexture2D::8107563637505952050::1719506137::1719604666::1::::<><>::
-::res://scenes/PNG/Wood/::1719602813
+::res://scenes/PNG/Wood/::1719604667
 s2 Wood Bark 2 Moss.png::CompressedTexture2D::6061118991102522472::1719506137::1719604666::1::::<><>::
 s2 Wood Bark 2.png::CompressedTexture2D::6521657110324418713::1719506137::1719604666::1::::<><>::
 s2 Wood Branches 01.png::CompressedTexture2D::6807521633129534661::1719506137::1719604666::1::::<><>::
@@ -376,14 +385,14 @@ s2 Wood Planks Vert 2 1.png::CompressedTexture2D::6837411075646118482::171950613
 s2 Wood Vert Slats.png::CompressedTexture2D::7088532816310788983::1719506137::1719604666::1::::<><>::
 Wood Planks Wide 1 Brown.png::CompressedTexture2D::4471681760039440808::1719506137::1719604666::1::::<><>::
 Wood Planks Wide 1 Worn.png::CompressedTexture2D::8921600604965687344::1719506137::1719604666::1::::<><>::
-::res://scenes/Top-Down_Retro_Interior/::1719602813
+::res://scenes/Top-Down_Retro_Interior/::1719604666
 TopDownHouse_DoorsAndWindows.png::CompressedTexture2D::462974458914657660::1719485224::1719604666::1::::<><>::
 TopDownHouse_FloorsAndWalls.png::CompressedTexture2D::1620751958258260969::1719485224::1719604666::1::::<><>::
 TopDownHouse_FurnitureState1.png::CompressedTexture2D::7743977082526344799::1719485224::1719604666::1::::<><>::
 TopDownHouse_FurnitureState2.png::CompressedTexture2D::1008911435724526534::1719485224::1719604666::1::::<><>::
 TopDownHouse_SmallItems.png::CompressedTexture2D::2984642811747304711::1719485224::1719604666::1::::<><>::
 ::res://scenes/Top-Down_Retro_Interior/Pixel Art Top Down - Basic/::1719602813
-::res://scenes/Top-Down_Retro_Interior/Pixel Art Top Down - Basic/Texture/::1719602813
+::res://scenes/Top-Down_Retro_Interior/Pixel Art Top Down - Basic/Texture/::1719604666
 TX Plant.png::CompressedTexture2D::1606040179412253437::1719568320::1719604666::1::::<><>::
 TX Player.png::CompressedTexture2D::4279329873812250544::1719568320::1719604666::1::::<><>::
 TX Props.png::CompressedTexture2D::8037846830549406349::1719568320::1719604666::1::::<><>::
@@ -393,7 +402,7 @@ TX Struct.png::CompressedTexture2D::7731568376776460135::1719568320::1719604666:
 TX Tileset Grass.png::CompressedTexture2D::4823057869455738354::1719568320::1719604666::1::::<><>::
 TX Tileset Stone Ground.png::CompressedTexture2D::5732260354076878812::1719568320::1719604666::1::::<><>::
 TX Tileset Wall.png::CompressedTexture2D::4925984208422487206::1719568320::1719604666::1::::<><>::
-::res://scenes/картинки/::1719602813
+::res://scenes/картинки/::1719604666
 1511015944154966703-removebg-preview.png::CompressedTexture2D::1693884166643164081::1719570766::1719604666::1::::<><>::
 images-removebg-preview.png::CompressedTexture2D::5133617370420640151::1719570552::1719604666::1::::<><>::
 images.jpeg::CompressedTexture2D::7591686844750796077::1719570388::1719604666::1::::<><>::
@@ -406,7 +415,7 @@ TX Struct.png::CompressedTexture2D::1695283584968664936::1719568400::1719604666:
 TX Tileset Grass.png::CompressedTexture2D::3916846236781810882::1719568400::1719604666::1::::<><>::
 TX Tileset Stone Ground.png::CompressedTexture2D::7657752487616747495::1719568400::1719604666::1::::<><>::
 TX Tileset Wall.png::CompressedTexture2D::1301758119908438379::1719568400::1719604666::1::::<><>::
-::res://scenes/картинки/14-TileSets/::1719602813
+::res://scenes/картинки/14-TileSets/::1719604666
 Decorations (32x32).png::CompressedTexture2D::5574894119026106559::1719571971::1719604666::1::::<><>::
 Terrain (32x32).png::CompressedTexture2D::846895208346259082::1719571971::1719604666::1::::<><>::
 ::res://Scripts/::1719599564
