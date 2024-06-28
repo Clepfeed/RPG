@@ -1,13 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://egtp1ac83pb0"]
+[gd_scene load_steps=2 format=3 uid="uid://egtp1ac83pb0"]
 
-[ext_resource type="PackedScene" uid="uid://x46kj0bfka0h" path="res://Player.tscn" id="1_lkdmx"]
 [ext_resource type="PackedScene" uid="uid://ch8gthxkmu6vn" path="res://Teleport.tscn" id="2_m2hh0"]
 
 [node name="Location_2" type="Node"]
 
 [node name="Teleport" parent="." instance=ExtResource("2_m2hh0")]
-position = Vector2(1174, 120)
-where_to_go = "Location_1"
-
-[node name="Player" parent="." instance=ExtResource("1_lkdmx")]
-position = Vector2(816, 277)
+position = Vector2(1174, 121)

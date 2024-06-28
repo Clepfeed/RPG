@@ -1,0 +1,38 @@
+[gd_scene load_steps=2 format=3 uid="uid://ckix1jtn3cbfd"]
+
+[ext_resource type="Script" path="res://Menu.gd" id="1_ye28a"]
+
+[node name="Menu" type="CanvasLayer"]
+script = ExtResource("1_ye28a")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+alignment = 1
+
+[node name="NewGame" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Новая игра	"
+
+[node name="LoadGame" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Загрузить игру"
+
+[node name="Exit" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Выйти"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/NewGame" to="." method="_on_new_game_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/LoadGame" to="." method="_on_load_game_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Exit" to="." method="_on_exit_pressed"]

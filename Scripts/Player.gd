@@ -3,7 +3,7 @@ extends Area2D
 @export var speed = 500; #скорость
 @export var max_hp = 100
 @export var hp = max_hp
-@export var mana = 100
+#@export var mana = 100
 var screen_size;
 
 @export var released_delay = 4;
@@ -12,12 +12,18 @@ var right_but_released_delay = 0;
 var up_but_released_delay = 0;
 var down_but_released_delay = 0;
 
+signal hit
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	var file = FileAccess.open("Saves/hp.txt", FileAccess.READ)
-	var read_hp = file.get_as_text()
-	hp = float(read_hp)
+	var file = FileAccess.open("Saves/save.txt", FileAccess.READ)
+	var read_file_text = file.get_as_text()
+	print(read_file_text)
+	if (read_file_text != "NewGame"):
+		hp = float(read_file_text)
+	else:
+		hp = max_hp
+	file.close()
 	
 	$BarDisplay/Bar.max_value = max_hp;
 	screen_size = get_viewport_rect().size

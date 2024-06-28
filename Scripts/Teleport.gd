@@ -1,9 +1,11 @@
 extends Area2D
 
-@export var where_to_go = "Location_2"
+@export var new_loc_X = 0
+@export var new_loc_Y = 0
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	
 	pass # Replace with function body.
 
 
@@ -14,7 +16,6 @@ func _process(delta):
 
 func _on_area_entered(area):
 	
-	
-	var newScene = "res://" + where_to_go + ".tscn"
-	get_tree().change_scene_to_file(newScene)
+	var new_position = Vector2(new_loc_X, new_loc_Y)
+	area.position = new_position
 	pass # Replace with function body.

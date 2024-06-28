@@ -1,9 +1,33 @@
-[gd_scene format=3 uid="uid://dt08hdmca5m47"]
+[gd_scene load_steps=5 format=3 uid="uid://dgeoqca2d7qpd"]
+
+[ext_resource type="Script" path="res://Enemy.gd" id="1_75pkm"]
+[ext_resource type="Texture2D" uid="uid://c38ny21stylsw" path="res://Sprites/Enemy.png" id="1_h4mh6"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_o8m22"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_h4mh6")
+}],
+"loop": true,
+"name": &"Wait",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h68r2"]
+size = Vector2(114.5, 108)
 
 [node name="Enemy" type="Area2D"]
-position = Vector2(365, 181)
-metadata/_edit_group_ = true
+position = Vector2(254, 238)
+script = ExtResource("1_75pkm")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.227711, 0.227711)
+sprite_frames = SubResource("SpriteFrames_o8m22")
+animation = &"Wait"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.25, 0)
+shape = SubResource("RectangleShape2D_h68r2")
+
+[connection signal="area_shape_entered" from="." to="." method="_on_area_shape_entered"]
