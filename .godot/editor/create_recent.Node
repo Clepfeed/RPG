@@ -1,8 +1,8 @@
+ColorRect
+Label
 HBoxContainer
 VBoxContainer
-Label
 MarginContainer
-ColorRect
 Node
 CollisionShape2D
 AnimatedSprite2D

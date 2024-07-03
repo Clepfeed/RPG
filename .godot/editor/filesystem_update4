@@ -7,6 +7,4 @@ res://Menu.tscn
 res://Enemy.tscn
 res://Fight_scene.tscn
 res://scenes.tscn
-res://Scenes.gd
-res://Menu.gd
 res://Fight_scene.gd

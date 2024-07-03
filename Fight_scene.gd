@@ -7,15 +7,23 @@ extends Node
 @export var player_move = true
 @export var enemy_spells = 2
 
+var text_log = ""
+
+func change_log():
+	$Log.set_text(text_log)
+	pass
+	
 func enemy_move():
 	var rand_move = randi_range(0, 1)
 	print(rand_move)
 	if (rand_move == 1):
 		player_hp -= 15
 		$PlayerHpBar/Bar.value = player_hp
+		text_log = "Противник наносит 15 урона\n" + text_log
 	else:
 		enemy_hp += 20
 		$EnemyHpBar/Bar.value = enemy_hp
+		text_log = "Противник получает 20 хп\n" + text_log
 	pass
 
 # Called when the node enters the scene tree for the first time.
@@ -44,14 +52,17 @@ func _input(event):
 	if(event.is_action_pressed("num_1")):
 		enemy_hp -= 20
 		$EnemyHpBar/Bar.value = enemy_hp
+		text_log = "Вы наносите 20 урона\n" + text_log
 		enemy_move()
 	if(event.is_action_pressed("num_2")):
 		enemy_hp -= 40
 		$EnemyHpBar/Bar.value = enemy_hp
+		text_log = "Вы наносите 40 урона\n" + text_log
 		enemy_move()
 	if(event.is_action_pressed("num_3")):
 		player_hp += 25
 		$PlayerHpBar/Bar.value = player_hp
+		text_log = "Вы получаете 25 хп\n" + text_log
 		enemy_move()	
 	if(enemy_hp <= 0):
 		var file = FileAccess.open("res://Saves/save.txt", FileAccess.READ)
@@ -77,6 +88,7 @@ func _input(event):
 		file.close()
 		
 		get_tree().change_scene_to_file("res://Menu.tscn")
+	change_log()
 	pass
 
 

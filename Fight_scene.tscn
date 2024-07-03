@@ -52,6 +52,16 @@ layout_mode = 2
 theme_override_font_sizes/font_size = 25
 text = "2) блок щит 20 хп (20 маны)"
 
+[node name="Log" type="Label" parent="."]
+offset_left = -2.0
+offset_top = 260.0
+offset_right = 849.0
+offset_bottom = 480.0
+size_flags_vertical = 8
+theme_override_font_sizes/font_size = 25
+max_lines_visible = 5
+visible_characters_behavior = 1
+
 [node name="PlayerHpBar" parent="." instance=ExtResource("1_d7u4s")]
 position = Vector2(10, 46)
 
