@@ -1,18 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://ch8gthxkmu6vn"]
+[gd_scene load_steps=3 format=3 uid="uid://ch8gthxkmu6vn"]
 
 [ext_resource type="Script" path="res://Scripts/Teleport.gd" id="1_bx5vu"]
-[ext_resource type="Texture2D" uid="uid://d04yseuvl0t60" path="res://Sprites/teleport.png" id="1_xw8ao"]
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_owd0p"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("1_xw8ao")
-}],
-"loop": true,
-"name": &"static",
-"speed": 5.0
-}]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pscja"]
 size = Vector2(235, 129)
@@ -21,13 +9,6 @@ size = Vector2(235, 129)
 position = Vector2(178, 118)
 script = ExtResource("1_bx5vu")
 metadata/_edit_group_ = true
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-visible = false
-position = Vector2(-13.75, -43.5)
-scale = Vector2(0.895437, 0.597222)
-sprite_frames = SubResource("SpriteFrames_owd0p")
-animation = &"static"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-13.5, -43.5)

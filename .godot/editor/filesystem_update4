@@ -1,12 +1,12 @@
-res://Menu.tscn
 res://Player.tscn
 res://Teleport.tscn
 res://Location_1.tscn
+res://Location_2.tscn
 res://Bar_display.tscn
+res://Menu.tscn
 res://Enemy.tscn
 res://Fight_scene.tscn
 res://scenes.tscn
-res://Menu.gd
-res://Enemy.gd
 res://Scenes.gd
+res://Menu.gd
 res://Fight_scene.gd

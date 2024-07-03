@@ -18,12 +18,18 @@ signal hit
 func _ready():
 	var file = FileAccess.open("Saves/save.txt", FileAccess.READ)
 	var read_file_text = file.get_as_text()
-	print(read_file_text)
-	if (read_file_text != "NewGame"):
-		hp = float(read_file_text)
-	else:
-		hp = max_hp
+	var data = []
+	
+	for i in 5:
+		var indCh = read_file_text.find(';')
+		data.push_back(read_file_text.substr(0, indCh))
+		read_file_text = read_file_text.substr(indCh + 1)
+		
 	file.close()
+	
+	hp = float(data[0])
+	position.x = float(data[2])
+	position.y = float(data[3])
 	
 	$BarDisplay/Bar.max_value = max_hp;
 	screen_size = get_viewport_rect().size

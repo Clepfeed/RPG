@@ -1,7 +1,7 @@
-Label
 HBoxContainer
-MarginContainer
 VBoxContainer
+Label
+MarginContainer
 ColorRect
 Node
 CollisionShape2D

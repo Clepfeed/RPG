@@ -13435,7 +13435,7 @@ position = Vector2(213.326, 157.998)
 scale = Vector2(0.177612, 0.375063)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
-position = Vector2(-386.174, 1813.03)
+position = Vector2(-371.357, 1813.03)
 scale = Vector2(1.00795, 5.07276)
 shape = SubResource("SegmentShape2D_5usml")
 
@@ -13443,7 +13443,7 @@ shape = SubResource("SegmentShape2D_5usml")
 format = 2
 
 [node name="Teleport" parent="." instance=ExtResource("18_u7r8g")]
-position = Vector2(2065.78, 956)
+position = Vector2(2089.47, 954)
 scale = Vector2(1, 3)
 new_loc_X = 321
 new_loc_Y = 1470
@@ -13457,20 +13457,29 @@ new_loc_Y = 3216
 [node name="Enemy" parent="." groups=["Enemy_groupe"] instance=ExtResource("19_m6jbv")]
 position = Vector2(423.683, 1960)
 
-[node name="Enemy2" parent="." groups=["Enemy_groupe"] instance=ExtResource("19_m6jbv")]
+[node name="Enemy1" parent="." groups=["Enemy_groupe"] instance=ExtResource("19_m6jbv")]
 position = Vector2(1444.73, 1760)
+id = 1
+
+[node name="Enemy2" parent="." groups=["Enemy_groupe"] instance=ExtResource("19_m6jbv")]
+position = Vector2(57.8946, 2416)
+id = 2
 
 [node name="Enemy3" parent="." groups=["Enemy_groupe"] instance=ExtResource("19_m6jbv")]
-position = Vector2(57.8946, 2416)
+position = Vector2(1371.05, 2546)
+id = 3
 
 [node name="Enemy4" parent="." groups=["Enemy_groupe"] instance=ExtResource("19_m6jbv")]
-position = Vector2(1371.05, 2546)
-
-[node name="Enemy5" parent="." groups=["Enemy_groupe"] instance=ExtResource("19_m6jbv")]
 position = Vector2(507.893, 3926)
+id = 4
 
+[connection signal="area_shape_entered" from="Enemy" to="." method="_on_enemy0_area_shape_entered"]
 [connection signal="area_shape_entered" from="Enemy" to="." method="_on_enemy_area_shape_entered"]
+[connection signal="area_shape_entered" from="Enemy1" to="." method="_on_enemy_1_area_shape_entered"]
+[connection signal="area_shape_entered" from="Enemy1" to="." method="_on_enemy_area_shape_entered"]
+[connection signal="area_shape_entered" from="Enemy2" to="." method="_on_enemy_2_area_shape_entered"]
 [connection signal="area_shape_entered" from="Enemy2" to="." method="_on_enemy_area_shape_entered"]
+[connection signal="area_shape_entered" from="Enemy3" to="." method="_on_enemy_3_area_shape_entered"]
 [connection signal="area_shape_entered" from="Enemy3" to="." method="_on_enemy_area_shape_entered"]
+[connection signal="area_shape_entered" from="Enemy4" to="." method="_on_enemy_4_area_shape_entered"]
 [connection signal="area_shape_entered" from="Enemy4" to="." method="_on_enemy_area_shape_entered"]
-[connection signal="area_shape_entered" from="Enemy5" to="." method="_on_enemy_area_shape_entered"]
